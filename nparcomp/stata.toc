@@ -2,4 +2,4 @@
 1
 2
 3
-p xtregdhp Han-Philips (2010) Linear Dynamic Panel Data Regression Use xtregdhp With STATA 19
+p nparcomp Nonparametric Multiple Comparisons for relative contrast effects Use nparcomp With STATA 19
