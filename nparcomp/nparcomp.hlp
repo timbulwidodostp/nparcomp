@@ -1,0 +1,30 @@
+.-
+help for ^nparcomp^
+.-
+
+Nonparametric Multiple Comparisons for relative contrast effects Use nparcomp With STATA 19
+----------------------
+
+ ^nparcomp^ var1
+ 
+Description
+-----------
+
+^nparcompr^ Nonparametric Multiple Comparisons for relative contrast effects Use nparcomp With STATA 19.
+     
+Examples
+--------
+
+ . ^rcall clear^
+ . ^rcall: data<- st.data()r^
+ . ^rcall: names(data)^
+ . ^rcall: library(nparcomp)^
+ . ^rcall: nparcomp <- nparcomp(weight ~ dosage, data = data, asy.method = "probit", type = "Williams", alternative = "two.sided",  plot.simci = TRUE, info = FALSE, correlation = TRUE)^
+ . ^rcall: summary(nparcomp)^
+
+Author
+------
+
+      Timbul Widodo
+      Olah Data Semarang
+      https://www.youtube.com/@amalsedekah
