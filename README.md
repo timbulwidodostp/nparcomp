@@ -1,6 +1,8 @@
 # nparcomp
 Nonparametric Multiple Comparisons for relative contrast effects Use nparcomp With STATA 19
 
+https://www.youtube.com/watch?v=6GmfAzBuVxU
+
 Olah Data Semarang
 
 WA: +6285227746673 (085227746673)
